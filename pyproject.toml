@@ -1,0 +1,25 @@
+[project]
+name = "end-to-end-rag-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate",
+    "faiss-cpu",
+    "langchain",
+    "langchain-community",
+    "langchain-huggingface",
+    "numpy",
+    "pandas",
+    "pillow",
+    "pypdf",
+    "pypdfium2",
+    "pytesseract",
+    "pytest",
+    "python-dotenv",
+    "sentence-transformers",
+    "streamlit",
+    "torch",
+    "transformers",
+]
